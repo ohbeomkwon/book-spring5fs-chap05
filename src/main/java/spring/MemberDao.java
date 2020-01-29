@@ -6,7 +6,10 @@ import java.util.Map;
 
 import org.springframework.stereotype.Component;
 
+import spring2.ManualBean;
+
 @Component
+@ManualBean
 public class MemberDao {
 	private static long nextId = 0;
 	
